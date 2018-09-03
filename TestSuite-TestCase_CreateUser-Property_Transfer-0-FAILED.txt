@@ -1,0 +1,19 @@
+Status: FAILED
+Time Taken: 4
+Size: 0
+Timestamp: Thu Feb 22 12:35:55 IST 2018
+TestStep: Property Transfer
+Error:com.eviware.soapui.impl.wsdl.teststeps.PropertyTransferException: Missing source property
+
+----------------- Messages ------------------------------
+Performed transfer [emailID]
+Performed transfer [confirmEmail]
+Performed transfer [emailval]
+Performed transfer [emailLogin]
+Error performing transfer [email123] - Missing source property
+----------------------------------------------------
+emailID transferred [[email846@gmail.com]] from [Groovy Script.result] to [Method 1 - Request 1.username]
+confirmEmail transferred [[email846@gmail.com]] from [Method 1 - Request 1.username] to [Method 1 - Request 1.confirmEmail]
+emailval transferred [[email846@gmail.com]] from [Method 1 - Request 1.username] to [#TestCase#.emailID]
+emailLogin transferred [[email846@gmail.com]] from [Method 1 - Request 1.username] to [REST Request.username]
+email123 transferred [[Missing source property]] from [null.null] to [Method 1 - Request 1.null]

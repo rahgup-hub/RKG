@@ -1,0 +1,6 @@
+Total TC = 4
+Total PASS =  2
+
+Total FAIL = 2
+
+PASS PERCENTAGE = 50.0
