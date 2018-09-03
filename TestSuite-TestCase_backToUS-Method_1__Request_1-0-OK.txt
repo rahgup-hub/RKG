@@ -1,0 +1,50 @@
+Status: OK
+Time Taken: 52473
+Size: 44
+Timestamp: Thu Feb 22 12:35:55 IST 2018
+TestStep: Method 1 - Request 1
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: https://stage2-factory.r.anntaylor.com?BYPASS=true
+Method: GET
+StatusCode: 200
+URL: https://stage2-factory.r.anntaylor.com/cws/international/backToUSContext.jsp?BYPASS=true
+
+---------------- Request ---------------------------
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.1.1 (java 1.5)]
+Host: [stage2-factory.r.anntaylor.com]
+Accept-Encoding: [gzip,deflate]
+
+GET https://stage2-factory.r.anntaylor.com/cws/international/backToUSContext.jsp?BYPASS=true HTTP/1.1
+Accept-Encoding: gzip,deflate
+Host: stage2-factory.r.anntaylor.com
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.1.1 (java 1.5)
+
+
+---------------- Response --------------------------
+Server: [Apache/2.4.25 (Red Hat)]
+Cache-Control: [no-store]
+X-ATG-Version: [version=QVRHUGxhdGZvcm0vMTAuMnA1LEFublRheWxvci8yMDE4LjEsRENTLUNTUi8xMC4yLFNlcnZpY2UvMTAuMixEQ1MtQ1NSLVVJLzEwLjIsU2VydmljZS1VSS8xMC4yLFNlYXJjaC8xMC4ycDUsQ0FGLzEwLjI=]
+Connection: [keep-alive]
+Set-Cookie: [JSESSIONID=UNG8VfrRGMOh9EVuJfKcuGjsZJC7YMaXpttDrNwkDc32UwsktxdY!1999751064; path=/; HttpOnly, throttle=oracle; expires=Sun, 25-Feb-2018 07:06:46 GMT; path=/, orderDetails=; expires=Sat, 24-Mar-2018 07:06:46 GMT; path=/, orderId=11563479796; expires=Sat, 24-Mar-2018 07:06:46 GMT; path=/, _IntlCtr=US; expires=Sat, 24-Mar-2018 07:06:46 GMT; path=/, _IntlCur=USD; expires=Sat, 24-Mar-2018 07:06:46 GMT; path=/, b1pi=!yyI4cUk6RXoo3Pwsn06dWIahd1lG+C2r8Aoe95QGpUKFKLyQ3yDV/KOiXzw3wj7O7oT5e6xAaMXeMg==; path=/, BYPASS=true; expires=Sat, 24-Mar-2018 07:06:47 GMT; path=/; domain=.stage2-factory.r.anntaylor.com]
+Pragma: [no-cache]
+Expires: [Thu, 01 Jan 1970 00:00:00 GMT]
+#status#: [HTTP/1.1 200 OK]
+Content-Length: [44]
+Date: [Thu, 22 Feb 2018 07:06:47 GMT]
+Content-Type: [application/json; charset=UTF-8]
+
+
+
+
+
+
+
+
+{"status":"SUCCESS","error":"false"}
+

@@ -1,0 +1,8 @@
+Status: OK
+Time Taken: 24
+Size: 0
+Timestamp: Thu Feb 22 12:35:55 IST 2018
+TestStep: Groovy Script
+
+----------------- Messages ------------------------------
+Script-result: email846@gmail.com

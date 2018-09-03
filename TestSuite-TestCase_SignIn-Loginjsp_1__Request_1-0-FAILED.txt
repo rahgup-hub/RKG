@@ -1,0 +1,57 @@
+Status: FAILED
+Time Taken: 1218
+Size: 326
+Timestamp: Thu Feb 22 12:35:53 IST 2018
+TestStep: Login.jsp 1 - Request 1
+
+----------------- Messages ------------------------------
+[Script Assertion] Unable to determine the current character, it is not a string, number, array, or object
+
+The current character read is '<' with an int value of 60
+Unable to determine the current character, it is not a string, number, array, or object
+line number 1
+index number 0
+<HTML><HEAD>
+^
+[Valid HTTP Status Codes] Response status code:403 is not in acceptable list of status codes
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: https://stage2-factory.r.anntaylor.com?BYPASS=true
+Method: GET
+StatusCode: 403
+URL: https://stage2-factory.r.anntaylor.com/cws/profile/login.jsp?username=sdolai1%40sapient.com&password=sapient123
+
+---------------- Request ---------------------------
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.1.1 (java 1.5)]
+Host: [stage2-factory.r.anntaylor.com]
+Accept-Encoding: [gzip,deflate]
+
+GET https://stage2-factory.r.anntaylor.com/cws/profile/login.jsp?username=sdolai1%40sapient.com&password=sapient123 HTTP/1.1
+Accept-Encoding: gzip,deflate
+Host: stage2-factory.r.anntaylor.com
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.1.1 (java 1.5)
+
+
+---------------- Response --------------------------
+Server: [AkamaiGHost]
+Connection: [keep-alive]
+Expires: [Thu, 22 Feb 2018 07:05:54 GMT]
+#status#: [HTTP/1.1 403 Forbidden]
+Mime-Version: [1.0]
+Content-Length: [326]
+Date: [Thu, 22 Feb 2018 07:05:54 GMT]
+Content-Type: [text/html]
+
+<HTML><HEAD>
+<TITLE>Access Denied</TITLE>
+</HEAD><BODY>
+<H1>Access Denied</H1>
+ 
+You don't have permission to access "http&#58;&#47;&#47;stage2&#45;factory&#46;r&#46;anntaylor&#46;com&#47;cws&#47;profile&#47;login&#46;jsp&#63;" on this server.<P>
+Reference&#32;&#35;18&#46;3c4a3917&#46;1519283154&#46;2f7b3dae
+</BODY>
+</HTML>
+
